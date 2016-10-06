@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Django Migrations Misunderstood"
-date:   2016-05-02 12:23:05
+date:   2016-09-27 12:23:05
 categories: django engineering
-author: tj
+author: Tj
 ---
 
 At Paytm, we use [Django](https://www.djangoproject.com/), especially its [Admin](https://docs.djangoproject.com/en/1.10/ref/contrib/admin/) for operational purposes. We have models for many of our tables, access to which are controlled through Django Acl. Up till now, we used to use unmanaged models, which worked for most of the cases, since we needed to expose them on the admin panel. The reason for using unmanaged models is primarily because any alters on production or staging environment has to go through a DBA.
